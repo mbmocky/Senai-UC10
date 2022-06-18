@@ -1,0 +1,16 @@
+main {
+padding: 100px 0;
+height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+
+h1, p, img {
+    margin: 0 auto;
+}
+
+img {
+    width: 400px;
+}

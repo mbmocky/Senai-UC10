@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "email": "teste@email.com",
+      "password": "$2a$10$.3veGY8yhHgWZrSedw2wOO8WWUFPE6NIFamTjzXSNvRfEePujm5qu",
+      "id": 1
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Jogo GRID Legends - Xbox One e Xbox One X",
+      "preco": "R$ 299,50",
+      "imagem": "../assets/img/produtos/000001.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Console Microsoft Xbox One Series S 512GB - Branco",
+      "preco": "R$ 2999,90",
+      "imagem": "../assets/img/produtos/000002.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Controle Microsoft Xbox Series X/S com Cabo - Rosa",
+      "preco": "R$ 299,50",
+      "imagem": "../assets/img/produtos/000003.jpg"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Astolpho"
+    },
+    {
+      "id": 2,
+      "nome": "Humberto"
+    },
+    {
+      "id": 3,
+      "nome": "Doisberto"
+    },
+    {
+      "id": 4,
+      "nome": "Tresberto"
+    },
+    {
+      "id": 7,
+      "nome": "Astroniano"
+    },
+    {
+      "id": 8,
+      "nome": "Amahanaia"
+    }
+  ]
+}
