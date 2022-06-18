@@ -20,6 +20,16 @@ export class LoginComponent implements OnInit {
   mensagem = " ";
 
   onSubmit() {
+
+    const listaPalavras: string[] = [" ", "select ", "from ", "drop ", "or ", "having ", "group ", "by ", "insert ", "exec ", "\"", "\'", "\*", "\--", "\#", "\;"]
+
+    listaPalavras.forEach(word => {
+      if(this.loginModel.email.toLowerCase().includes(word)) {
+        this.mensagem = "Dados inválidos: " + word
+        return
+      }
+    })
+    
     this.loginService.login(this.loginModel).subscribe( (response) => {
       this.mensagem= "Login Bem Sucedido!";
       this.router.navigateByUrl("/");
@@ -27,8 +37,8 @@ export class LoginComponent implements OnInit {
       if(erro.status == 400) {
         this.mensagem = "E-mail ou senha não encontrado"
       }
-      // console.log(erro)
-      // this.mensagem = erro.error;
+      console.log(erro)
+      this.mensagem = erro.error;
     })
   }
 
