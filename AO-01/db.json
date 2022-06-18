@@ -42,7 +42,27 @@
     },
     {
       "id": 8,
-       "nome": "Amahanaia"
+      "nome": "Amahanaia"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "teste@email.com",
+      "password": "jabacomrapadura"
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3,
+      "email": "teste3@email.com",
+      "password": "jabacomrapadura"
+    },
+    {
+      "email": "teste@email.com",
+      "password": "jabacomrapadura",
+      "id": 4
     }
   ]
 }
